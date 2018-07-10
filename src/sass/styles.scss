@@ -1,0 +1,16 @@
+// VENDOR
+@import "vendor/normalize"; // Normalize file--sets standards to make site consistent across browsers
+// @import "vendor/mdl"; // Material Design Lite TODO: Determine if we want to keep this or move to something else
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');  // Opensans Import--TODO: Host locally
+
+// GLOBAL STYLES
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background: #a1a1a1;
+}
+
+// PAGE & COMPONENTS
+@import "home";
