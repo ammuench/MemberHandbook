@@ -32,7 +32,6 @@ mix.sass('src/sass/styles.scss', 'public/css')
  */
 mix.js('src/js/main.js', 'public/js')
   .copy('src/index.html', 'public/index.html')
-  .copy('src/js/googleAnalytics.js', 'public/js/googleAnalytics.js')
   .copy('src/pages', 'public');
 
 mix.browserSync({"serveStatic":["./public"],"files":["./public"]});

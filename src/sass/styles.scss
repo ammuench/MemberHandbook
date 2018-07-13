@@ -3,13 +3,16 @@
 // @import "vendor/mdl"; // Material Design Lite TODO: Determine if we want to keep this or move to something else
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');  // Opensans Import--TODO: Host locally
 
+// IMPORT VARS
+@import "variables";
+
 // GLOBAL STYLES
 * {
     font-family: 'Open Sans', sans-serif;
 }
 
 body {
-    background: #a1a1a1;
+    background: $lt-red;
 }
 
 // PAGE & COMPONENTS
